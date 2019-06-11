@@ -1,0 +1,13 @@
+{
+  "scriptFile": "run.py",
+  "disabled": false,
+  "bindings": [
+    {
+      "name": "myblob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "data-container-unzipped/DRUSEN/IMG_0156.jpeg",
+      "connection": "projectsacloud_STORAGE"
+    }
+  ]
+}
